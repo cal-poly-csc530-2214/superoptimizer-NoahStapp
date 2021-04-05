@@ -13,9 +13,9 @@ static const isa_t isa[] = {
    {add,    2, 1, {RX,  2,  0}, "add",   "(",    " + "  },  // Add.
    {sub,    2, 0, { 2,  2,  0}, "sub",   "(",    " - "  },  // Subtract.
 // {rsb,    2, 0, { 2,  2,  0}, "rsb",   "(",    " -r "  },  // Reverse subtract.
-// {mul,    2, 1, {RX,  3,  0}, "mul",   "(",    " * "  },  // Multiply.
-// {_div,   2, 0, { 1,  3,  0}, "div",   "(",    " / "  },  // Divide signed.
-// {_divu,  2, 0, { 1,  1,  0}, "divu",  "(",    " /u " },  // Divide unsigned.
+{mul,    2, 1, {RX,  3,  0}, "mul",   "(",    " * "  },  // Multiply.
+{_div,   2, 0, { 1,  3,  0}, "div",   "(",    " / "  },  // Divide signed.
+{_divu,  2, 0, { 1,  1,  0}, "divu",  "(",    " /u " },  // Divide unsigned.
 // {_mod,   2, 0, { 1,  3,  0}, "mod",   "(",    " % "  },  // Modulus signed.
 // {_modu,  2, 0, { 1,  1,  0}, "modu",  "(",    " %u " },  // Modulus unsigned.
    {_and,   2, 1, {RX,  2,  0}, "and",   "(",    " & "  },  // AND.
